@@ -5,12 +5,8 @@ export default function TwoColumnLayout({ children }) {
 
   return (
     <div className="flex">
-      <div>
-        {left}
-      </div>
-      <div>
-        {right}
-      </div>
+      {left}
+      {right}
     </div>
   )
 }
